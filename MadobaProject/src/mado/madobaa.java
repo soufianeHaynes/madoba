@@ -11,6 +11,10 @@ public class madobaa {
 
 	        System.out.print("Por favor, introduce el texto 'y': ");
 	        String y = scanner.next();
+		    if (n <= 0) {
+	            System.out.println("El número debe ser mayor que 0.");
+	            return;
+	        }
 
 	        System.out.println("Resultado:");
 	        generarModaba(y, n);
